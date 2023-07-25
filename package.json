@@ -1,16 +1,24 @@
 {
   "name": "mood-tracker-back",
   "version": "1.0.0",
-  "description": "Server for the Mood Tracker App",
-  "main": "server.js",
+  "description": "This repository contains the backend code for the Mood Tracker app. The backend is built using Node.js, Express, and PostgreSQL, and it serves as the API for the Mood Tracker application.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miazarre/mood-tracker-back.git"
+  },
   "keywords": [],
-  "author": "Mia Garcia",
+  "author": "miazarre",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miazarre/mood-tracker-back/issues"
+  },
+  "homepage": "https://github.com/miazarre/mood-tracker-back#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "pg": "^8.11.1"
+    "sqlite3": "^5.1.6"
   }
 }

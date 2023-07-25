@@ -9,7 +9,6 @@ To get started with the backend development of the Mood Tracker app, follow the 
 ### Prerequisites
 
 - Node.js (version X.X.X)
-- PostgreSQL (version X.X.X)
 
 ### Installation
 
@@ -30,11 +29,6 @@ Install the dependencies:
 bash
 
 npm install
-
-### Set up the PostgreSQL database:
-
-    Create a new PostgreSQL database.
-    Update the database configuration in server.js with your PostgreSQL credentials (username, password, host, port, and database name).
 
 ### Start the server:
 
